@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            .container{
+                border: 4px dotted black;
+                width: 400px;
+                height: 450px;
+                text-align: center;
+                padding: 15px;
+            }
+
+            input{
+                font-weight: 800;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <marquee style="background-color: red; font-weight: 700;">This site is under maintaince|||||Thank you</marquee>
+        <h1>Login Page</h1>
+        <div class="container">
+        <form style="padding: 20px; text-align: center;">
+            First Name: <br>
+            <input type="text" id="firstname" placeholder="Enter First Name" style="background-color: aqua;"> <br> <br>
+            Last Name: <br>
+            <input type="text" id="lastname" placeholder="Enter Last Name" style="background-color:red;"> <br> <br>
+            Email: <br>
+            <input type="email" id="email" placeholder="Enter Email ID" style="background-color: green;"> <br><br>
+            Password: <br>
+            <input type="password" id="password" placeholder="Enter Password" style="background-color: rgb(207, 225, 18);"> <br><br>
+            Gender: <input type="radio" name="gender" style="background-color: rgb(62, 51, 125);">Male &nbsp; 
+            <input type="radio" name="gender" style="background-color: rgb(15, 79, 16);">Female <br><br>
+            Known Languages: <input type="checkbox" name="Python" style="background-color: aqua;">Python &nbsp; 
+            <input type="checkbox" name="java" style="background-color: rgb(179, 194, 15);">Java <br><br>
+            Education:<select>
+                        <option>-------</option>
+                        <option>Bachelor's Degree</option>
+                        <option>Degree</option>
+                        <option>M.Tech</option>
+                    </select> <br><br><br>
+            <input type="submit" value="submit"style="background-color: aqua;">
+        </form>
+        </div>
+    </body>
+</html>

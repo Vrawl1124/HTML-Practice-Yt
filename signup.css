@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    background: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    min-height: 90vh;
+    align-items: center;
+}
+
+.main{
+    width: 550px;
+    height: 450px;
+    border: 2px solid rgb(236, 153, 10);
+    margin-left: 20px;
+    margin-top: 30px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 10px 0;
+    border-radius: 10px;
+}
+
+.main h1{
+    text-align: center;
+    color: gold;
+}
+
+.main .email{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-left: 45px;
+}
+
+.main .email input{
+    width: 80%;
+    height: 90%;
+    border-radius: 30px;
+    border: none;
+    padding: 2px;
+    border: 2px solid rgb(237, 237, 231);
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0 0 25px gold;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.main .email input::placeholder{
+    color: gold;
+    padding: 20px;
+}
+
+.main .email img{
+    position: absolute;
+    top: 20px;  
+    right: 120px;
+    font-size: large;    
+}
+
+.main .Signup{
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 0 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    background: transparent;
+    color: gold;
+    border: none;
+    border: 2px solid rgb(229, 219, 219);
+    box-shadow: 0 0 20px;
+}
+
+.Signup:hover{
+    background-color: gray;
+}
+
+.Signup:active{
+    background-color: rgb(74, 65, 65);
+    box-shadow: 0 10px #fff;
+    transform: translateY(3px);
+}

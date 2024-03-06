@@ -1,0 +1,19 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: firebrick;
+    text-align: center;
+}
+#para1
+{
+    color: red;
+    text-align: center;
+}
+.para2
+{
+    color: yellowgreen;
+    text-align: center;
+}
